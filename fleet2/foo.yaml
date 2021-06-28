@@ -3,7 +3,7 @@ kind: Secret
 apiVersion: v1
 type: kubernetes.io/basic-auth
 metadata:
-  name: logi-helm-auth
+  name: logi-helm-auth1
   namespace: default
 stringData:
   username: logi
