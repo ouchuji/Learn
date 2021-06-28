@@ -1,0 +1,10 @@
+---
+kind: Secret
+apiVersion: v1
+type: kubernetes.io/basic-auth
+metadata:
+  name: logi-helm-auth
+  namespace: fleet-default
+stringData:
+  username: logi
+  password: logi123
